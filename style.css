@@ -1,0 +1,687 @@
+ *{
+    
+  margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+ margin: 0%;
+ padding: 0%;
+    justify-content: right;
+    align-items: center;
+    overflow-x: hidden;
+    }
+
+.container1{
+    background-image:
+  
+    linear-gradient(to right,rgb(92, 4, 142)39%,rgba(45, 250, 154, 0.311)),
+    url(FB_IMG_1701150660108.jpg);
+   
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+#logo{
+    color: rgb(247, 250, 247);
+    font-size: 30px;
+    text-transform : uppercase;
+}
+
+ul {
+    width:55%;
+    list-style: none;/*eleminer les point des elementd de ul*/
+    display: flex;/*ul en meme ligne   */
+    justify-content: space-evenly;/* space entre les elements de ul*/
+
+}
+ul a{
+    border-bottom: 2px solid transparent;/* les bouton de ul s'allume lorsque la pression*/
+}
+ul a:hover{
+    border-bottom-color:white;
+}
+
+header{
+   display: flex;
+    justify-content: space-between;
+   align-items:center;
+    padding:10px;
+    
+}
+
+    #content h1 {
+      color: yellow;
+margin-top: 170px;
+        margin-left: 80px;
+        font-size: 50px;
+    }
+   /* #content button{
+        
+        position: relative;
+        display: inline-flex;
+        margin-top: -5px;
+        margin-left: 80px;
+    }*/
+.bsh{
+    background-color:transparent;
+    border-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    background: transparent;
+  
+}
+.blr{
+    background-color:white;
+    border-color:white ;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+#contact
+{
+    margin: 0%;
+    padding: 3%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+   
+position: relative;
+min-height: 100vh;
+
+display: flex;
+justify-content: ;
+align-items: right;
+flex-direction: column;
+background-image:
+  
+linear-gradient(to right,rgb(92, 4, 142)10% , rgba(4, 142, 137, 0.08)),
+url(WhatsApp\ Image\ 3023-12-26\ at\ 21.52.02_ddce3269.jpg);
+background-size: cover;
+
+}
+.box{
+    justify-content: center;
+    align-items: center;
+}
+.contact h3{
+    color: rgb(246, 255, 0);
+    font-size: 40 px;
+}
+
+.contact h2{
+    color: white;
+    font-size: 40px;
+}
+.contact .contact form{
+    padding: 0%;
+    margin: 0%;
+    margin-left: auto;
+    text-align: right;
+}
+/*.container0 .contactinfo .box .icon{
+min-width: 60 px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+
+
+
+}*/
+.container0 .contactinfo .box .text{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: #f9f6f6;
+flex-direction: column;
+font-weight: 300;
+margin-top: 5%;
+
+}
+ #contact .content {
+   color: rgb(253, 252, 252);
+    text-align: center;
+}
+.contact .contact form{
+    width: 40%;
+    padding: 40px;
+    background: white;
+    margin-top: -269px;
+}
+.contact form h2 {
+font-size: 30px;
+color: #333;
+font-weight: 500;
+}
+.contact form .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    
+
+}
+.contact form .inputbox input,
+.contact form .inputbox textarea
+{
+    width: 100%;
+    padding:5px 0 ;
+    font-size: 16 px;
+    margin : 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+.contact form .inputbox span{
+position: absolute;
+left: 0;
+
+padding:5px 0 ;
+font-size: 16 px;
+margin : 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color:#666;
+
+}
+
+.contact form .inputbox input:focus ~ span,
+.contact form .inputbox input:valid ~ span,
+.contact form .inputbox textarea:focus ~ span,
+.contact form .inputbox textarea:valid ~ span
+
+{
+    color: #e91e63;
+    font-size: 12px;
+transform: translateY(-20px)
+}
+.contact form .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color:#fff;
+    border: none;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+#cart
+{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   width: 100%;
+   height: 750px;
+background-image:
+linear-gradient(to right,rgb(92, 4, 142)10% , rgba(4, 142, 137, 0.08)),
+url(WhatsApp\ Image\ 1023-12-26\ at\ 21.52.03_9ca9f6d2.jpg);
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+/*
+.pre{
+    justify-content: center;
+    align-items: center;
+}
+
+.contentcart h1
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+  margin-bottom: 10px;
+  color: #3e4601;
+    
+}
+.contentcart{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px black,0 10px 10px black;
+    transition: -4s;
+    background: rgba(252, 252, 170, 0.409);
+}
+.contentcart :hover{
+    box-shadow: 0 3px 6px black,0 3px 6px black;
+    transform: translates(0px,-8px);
+}
+.contentcart img{
+    width: 200px;
+    height:200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.contentcart p{
+    text-align: center;
+    color: #333;
+    padding-top: 0%;
+    
+
+}
+.contentcart h6{
+    font-size: 26px;
+    text-align: center;
+    color: #565c00;
+    margin: 0;
+    padding-top: 10px;
+}
+.contentcart button{
+    text-align: center;
+    font-size: 24px;
+    color:white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #8800a7;
+    border-bottom: 2px solid transparent;
+}*/
+.card-container {
+   /*
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;*/
+    position: relative;
+    top:0;
+    left:0;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,auto);
+  
+}
+
+.card {
+    position: relative;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    transform: perspective(750px) translate3d(0px, 0px, -250px) 
+    rotateX(27deg) scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #e6e6e6;
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3); /* Adjusted box shadow */
+    transition: 0.4s ease-in-out transform, 0.4s ease-in-out box-shadow; /* Added box-shadow transition */
+}
+
+.card:hover {
+    transform: translate3d(0px, 0px, -250px);
+    box-shadow: 0 50px 80px -20px rgba(32, 195, 187, 0.5); /* Increased box shadow on hover */
+}
+
+
+/* ------------- */
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+
+
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 16px;
+}
+
+.card-front {
+    background: linear-gradient(to right, #138b2b, #7104d1);
+}
+
+.card-front img {
+    width: 250px;
+    margin-top: 10px;
+}
+.card-back img {
+    width: 200px;
+    margin-top: 18px;
+}
+
+.card-back {
+    background: linear-gradient(to right, #1abc9c, #3498db);
+    color: #ffffff;
+    box-shadow: 0 5px 20px #3498db;
+    transform: rotateY(180deg);
+}
+.card-container button{
+    text-align: center;
+    font-size: 24px;
+    color:white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #8800a7;
+    border-bottom: 2px solid transparent;
+}
+#about{
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right,rgba(134, 1, 228, 0.82)10%,rgba(45, 250, 89, 0.158)),
+    url(b7.webp);
+    background-size: cover;
+}
+#title{
+    display: flex;
+    justify-content: ;
+    padding-top: 135px;
+    padding-left: 50px;
+    color: white;
+    font-size: 250%;
+    margin-top: 20px;
+    
+}
+
+#description{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+#butt{
+  /*  margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+    background-color:white;
+    border-color: white;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    #tit{
+    position: fixed;
+    font-size: 200%;
+    color: white;
+   
+    top: 23%;
+    right: 15%;
+}
+    #slidepic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+    */
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    position: relative;
+  padding: 5px 15px;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #9dff00;
+  outline: 2px solid #f2f7f3;
+  outline-offset: -2px;
+  font-size: 1rem;
+  color: #f2f6f6;
+  font-weight: 300;
+  cursor: pointer;
+  transition: outline-offset 200ms ease;
+}
+#butt:hover {
+    color: #e0ffff;
+    outline-offset: 3px;
+  }
+  #butt:active{
+    transform: scale(0.95);
+  }
+  #slidepic img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+  #slidepic {
+    position: relative;
+    top: -42%;
+    right: -55%;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    border:solid 2px white;
+    border-radius: 5%;
+}
+
+
+#tit{
+    font-size: 200%;
+    color: white;
+    position: relative;
+    bottom: 45%;
+    left: 66%;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+.phone{
+    left: -18px;
+    top: -35px;
+    display: flex;
+    position: relative;
+    /* margin-top: -35px; */
+    font-size: 200%;
+    color: #e0ffff;
+    /* margin-left: -25px; */
+}
+
+.gmail{
+    left: -26px;
+   top: -172px;
+    display: flex;
+    position: relative;
+    /* margin-top: -124px; */
+    font-size: 250%;
+    /* margin-left: -30px; */
+    color: white;  
+}
+.location{
+    display: flex;
+    position: relative;
+    top: -314px;
+    left: -15px;
+    /* margin-top: -152px; */
+    font-size: 250%;
+    /* margin-left: -20px; */
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .bsh {
+        position: relative;
+        right: 42px;
+        width: 80px;
+        height: 25px;
+        
+    }
+    .blr {
+        position: relative;
+        right: 33px;
+        width: 75px;
+        height: 25px;
+       
+    }
+    .card-container {
+        /*
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-gap: 5px;*/
+         position: relative;
+         top:-53;
+         left:0;
+       display:grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(3,auto);
+       
+     }
+     
+    #content button{
+        display: table-column;
+    }
+    
+    .contact .contact form {
+        width: 100%;
+        padding: 40px;
+        background: white;
+        margin-top: -90px;
+    }
+    #tit{
+        display: none;
+    }
+    #slidepic {
+
+        position: relative;
+        margin-top: -40px;
+    margin-left: 20px;
+        top: -88%;
+        right: -5%;
+        width: 200px;
+        height: 100px;
+        overflow: hidden;
+        border: solid 2px white;
+        border-radius: 5%;
+    }
+    body{
+     padding: 0%; 
+     margin: 0%;  
+        overflow-x: hidden;
+    }
+    header ul {
+        flex-direction: column;
+        margin-left: 50%;
+    }
+
+    header ul li {
+        margin-bottom: 10px;
+    }
+
+    #content h1 {
+        font-size: 24px;
+    }
+
+    .contact .container0 {
+        flex-direction: column;
+    }
+
+    .contact .box, .contact .form {
+        flex: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    #about #slidepic img {
+        max-width: 45%;
+    }
+
+    .card {
+      width: 45%;
+    }
+   
+  }
+ 
+  @media screen and (max-width: 576px) {
+    
+    .card-inner{
+        height: 50%;
+    }
+    .b1{
+        display: column;
+    }
+    .contact .contact form {
+        width: 100%;
+        padding: 40px;
+        background: white;
+        margin-top: -90px;
+    }
+    #tit{
+        display: none;
+    }
+    #slidepic {
+        position: relative;
+        margin-top: -40px;
+    margin-left: 20px;
+        top: -85%;
+        right: -5%;
+        width: 200px;
+        height: 100px;
+        overflow: hidden;
+        border: solid 2px white;
+        border-radius: 5%;
+    }
+    body{
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+    #content h1 {
+        font-size: 18px;
+    }
+
+    .contact .box, .contact .form {
+        padding: 10px;
+    }
+
+    #about #slidepic img {
+        max-width: 100%;
+    }
+    .card {
+      width: 100%;
+    } 
+}
